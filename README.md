@@ -1,16 +1,21 @@
-# React + Vite
+#Social Media Content Analyzer
+#Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Social Media Content Analyzer is a web-based tool that helps users evaluate the effectiveness and emotional tone of their social media content before posting.
+It uses sentiment analysis, keyword extraction, and engagement estimation to give meaningful insights into how a post might perform and be perceived by audiences.
 
-Currently, two official plugins are available:
+#Key Features
+Sentiment Analysis — Detects whether the tone of a post is Positive, Neutral, or Negative with a confidence score.
+Engagement Estimation — Predicts how engaging a post might be, based on its tone and readability.
+Readability Check — Evaluates how easy it is to read and understand your post.
+Hashtag & Keyword Extraction — Automatically identifies relevant hashtags and keywords from the input text.
+Visual Sentiment Chart — Displays sentiment distribution through a clean, responsive pie chart.
+History Tracking — Stores your previous analyses locally with the option to clear history.
+Copy-to-Clipboard Tags — Click hashtags or keywords to instantly copy them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#Tech Stack
+Frontend: React.js (Vite)
+Styling: Tailwind CSS
+Visualization: Recharts (PieChart for sentiment)
+Storage: Local Storage API
+Language: JavaScript (ES6+)
